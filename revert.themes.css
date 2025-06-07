@@ -1,4 +1,4 @@
-/**
+/*
  * @name revert
  * @author @0928712
  * @description [🎸] Old discord UI with improved features
@@ -10,13 +10,14 @@
 @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/oldUI.css");
 @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/status.css");
 
-/* optional stuff - uncomment them if u wanna use them */
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/smallProfile.css"); */
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/removeGlowGradient.css"); */
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/fancySpotify.css"); */ /* NOTE : ONLY WORKS IF U HAVE SPOTIFY CONTROLS PLUGIN FROM VENCORD */
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/clanTags.css"); */
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/blurrySettings.css"); */
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/typeMessage.css"); */
+/* optional stuff - uncomment them if u wanna use them 
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/smallProfile.css");
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/removeGlowGradient.css"); 
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/fancySpotify.css"); NOTE : ONLY WORKS IF U HAVE SPOTIFY CONTROLS PLUGIN FROM VENCORD
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/clanTags.css");
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/blurrySettings.css");
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/typeMessage.css");
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/cozyProfilePopouts.css")
 
 /* CONFIG */
 :root {
