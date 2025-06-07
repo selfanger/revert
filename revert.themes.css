@@ -10,14 +10,17 @@
 @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/oldUI.css");
 @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/status.css");
 
-/* optional stuff - uncomment them if u wanna use them 
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/smallProfile.css");
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/removeGlowGradient.css"); 
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/fancySpotify.css"); NOTE : ONLY WORKS IF U HAVE SPOTIFY CONTROLS PLUGIN FROM VENCORD
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/clanTags.css");
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/blurrySettings.css");
-/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/typeMessage.css");
+/* extra ui adjustments
 /* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/cozyProfilePopouts.css")
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/smallProfile.css");
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/clanTags.css");
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/simplifiedPanels.css");
+
+/* extra things
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/removeGlowGradient.css"); 
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/fancySpotify.css"); 
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ NOTE : ONLY WORKS IF U HAVE SPOTIFY CONTROLS PLUGIN FROM VENCORD */
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/typeMessage.css");
 
 /* CONFIG */
 :root {
@@ -61,6 +64,13 @@
   --darker-hovered-message: true;
   --prevent-sidebar-resizing: false;
   --fix-minor-icon-misalignments: true;
+
+  --tag-order: 0; /* -1 = before username ; 0 = default ; 1 = after badges (profile only enable clanTags.css for chat etc.) */
+  --status-enabled: false;
+  --background-width: half;
+  --right-gradient: false;
+  --show-notes: true;\
+
 
   /* don't edit these */
   --animation-speed: 0.1s;
