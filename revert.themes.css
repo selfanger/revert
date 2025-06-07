@@ -5,6 +5,65 @@
  * @version 1.0.0
  */
 
-/**
-going to push updates soon!
-*/
+@import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/contextMenuCompact.css");
+@import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/contentConfig.css");
+@import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/messageOptions.css");
+@import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/oldUI.css");
+@import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/status.css");
+
+/* optional stuff - uncomment them if u wanna use them */
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/smallProfile.css"); */
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/removeGlowGradient.css"); */
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/fancySpotify.css"); */ /* NOTE : ONLY WORKS IF U HAVE SPOTIFY CONTROLS PLUGIN FROM VENCORD */
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/clanTags.css"); */
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/blurrySettings.css"); */
+/* @import url("https://raw.githubusercontent.com/selfanger/revert/refs/heads/main/content/typeMessage.css"); */
+
+/* CONFIG */
+:root {
+  /* blurryStatus.css settings */
+  --blrsm-blur-by: 5px;
+  --blrsm-dimmness: 25;
+  
+  /* status.css settings */
+  --add-custom-status-text: "custom message";
+  
+  /* general settings */
+  --\\--compact-title-bar: true;
+  --\\--compact-input-box: true;
+  --\\--compact-context-menu: true;
+  --\\--compact-user-area: true;
+  --\\--compact-channel-categories: true;
+  --\\--compact-server-list: true;
+  --\\--hide-nameplates: true;
+  --\\--hide-guild-tags: true;
+  --\\--hide-profile-effects: true;
+  --\\--hide-avatar-decorations: false;
+  --\\--hide-gradient-glow-usernames: true;
+  --\\--hide-server-boost-goal: true;
+  --\\--hide-server-activity: true;
+  --\\--hide-user-activity: true;
+  --\\--hide-context-menu-quick-reactions: true;
+  --\\--hide-hover-quick-reactions: false;
+  --\\--hide-image-edit-button: true;
+  --\\--hide-gif-button: false;
+  --\\--hide-sticker-button: false;
+  --\\--hide-emoji-button: false;
+  --\\--hide-apps-button: true;
+  --\\--hide-gift-button: true;
+  --\\--hide-help-button: false;
+  --\\--hide-shop-button: false;
+  --\\--hide-nitro-button: true;
+  --\\--hide-nitro-upsells: true;
+  --\\--hide-vencord-desktop-platform-indicator: true;
+  --\\--hide-cluttery-badges: false; /* hides quest , hypesquad, active dev, and discriminator badges */ 
+  --\\--darker-scrollbar: true;
+  --\\--darker-hovered-message: true;
+  --\\--prevent-sidebar-resizing: false;
+  --\\--fix-minor-icon-misalignments: true;
+
+  /* dont edit these */
+  --animation-speed: 0.1s;
+  --add-custom-status-text-margin: 4px;
+  --add-custom-status-hide: block; 
+}
