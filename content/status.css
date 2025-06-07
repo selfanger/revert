@@ -1,0 +1,90 @@
+:root {
+    --add-custom-status-text: "it's cosy here - @0928712";
+    --add-custom-status-text-margin: 4px;
+    --add-custom-status-hide: block;
+}
+
+.visual-refresh {
+  .inner_c0bea0 {
+    > header {
+      &:has(.container_ab8609){
+        min-height: calc(var(--custom-user-profile-banner-height) + 50px) !important;
+      }
+      &:has(.headerInner__24502){
+        min-height: calc(var(--custom-user-profile-banner-height) + 85px) !important;
+      }
+    }
+    
+    >.none_d125d2 .header__7f9c0:has(.container_ab8609),
+    >.header__5a2c6,
+    >.header__5be3e:has(.container_ab8609) {
+      min-height: calc(var(--custom-user-profile-banner-height) + 57px) !important;
+    }
+
+    header > .headerInner__24502 > .container_ab8609,
+    header > .container_ab8609,
+    >.none_d125d2 .header__7f9c0 > .container_ab8609,
+    >.header__5a2c6 > .container_ab8609,
+    >.header__5be3e > .container_ab8609 {
+      display: var(--add-custom-status-hide);
+      top: calc(var(--custom-user-profile-banner-height) + 9px) !important;
+      left: 117px !important;
+
+      >.outer_ab8609 {
+        max-width: 167px !important;
+
+        &:before {
+          height: 20px;
+          width: 20px;
+          top: 32px;
+          left: -25px;
+        }
+
+        &:after {
+          height: 10px;
+          width: 10px;
+          top: 31px;
+          left: -43px;
+        }
+        
+        >.inner_ab8609 {
+          >.content_ab8609 {
+            max-height: none !important;
+
+            >.text-sm\/normal_cf4812.statusText_ab8609.italicPrompt_ab8609 {
+              font-size: 0;
+    
+              &:after {
+                content: var(--add-custom-status-text);
+                font-size: 14px;
+              }
+            }
+          }
+            
+          >.addStatusIcon_ab8609 {
+            margin-right: var(--add-custom-status-text-margin);
+          }
+
+          >.defaultColor__4bd52.text-sm\/normal_cf4812.addStatusPrompt_ab8609.italicPrompt_ab8609 {
+            font-size: 0;
+  
+            &:after {
+              content: var(--add-custom-status-text);
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+
+    header > .headerInner__24502 > .container_ab8609 {
+      top: 35px !important;
+      left: 180px !important;
+      transform: scale(1.15);
+
+      >.outer_ab8609:after{
+        top: 26px;
+      }
+    }
+  }
+}
